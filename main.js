@@ -1,5 +1,6 @@
 var startButton = document.getElementById("start")
-var exitButton = document.getElementById("start")
+var exitButton = document.getElementById("exit")
+var newGameButton = document.getElementById("newGame")
 var rockImg = document.getElementById("rock")
 var paperImg = document.getElementById("paper")
 var scissorsImg = document.getElementById("scissors")
@@ -90,6 +91,18 @@ var totalGame = 0
 
 	function exit(){
 		location.reload();
+	}
+
+	function newGame(){
+			userWin.innerHTML = 0
+			userLoses.innerHTML = 0
+			userDraw.innerHTML = 0
+			total.innerHTML = 0
+			user.style.background = "none"
+			comp.style.background = "none"
+			userSelect.innerHTML = ''
+			computerSelect.innerHTML = ''
+			msg.innerHTML = ''
 	}
 
 	
