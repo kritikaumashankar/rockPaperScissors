@@ -1,0 +1,38 @@
+h1{
+	color:blue;
+	text-align: center;
+}
+img{
+	width: 200px;
+	height: 200px;
+	padding: 30px;
+	border: 2px solid black;
+	margin: 75px;
+
+}
+
+#images{
+	align-items: center;
+	display:none;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+	margin: 3% 48%;
+}
+#main{
+    width: 30em;
+    height: 15em;
+    padding: 86px;
+    border: 2px solid black;
+    margin: 0 20em;
+}
+#user,#comp{
+	  margin: 0 500px;
+}
